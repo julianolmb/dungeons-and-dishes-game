@@ -1,0 +1,113 @@
+html,
+body {
+  font-size: 16px;
+}
+
+.containernomargin {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+
+.header {
+  background-color: #380000;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 15vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header-title {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  line-height: 120%;
+  font-family: "MedievalSharp", cursive;
+}
+
+.header-subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+
+.header2 {
+  margin: 0;
+  background-color: white;
+  color: black;
+  text-align: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.title3 {
+  margin: 0;
+  height: 30px;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+}
+
+.title4 {
+  height: 50px;
+  font-size: 16x;
+  font-family: "Oswald", sans-serif;
+}
+
+.game {
+  height: 75vh;
+  margin: 0;
+  background-color: #632929;
+  align-items: center;
+}
+
+.game-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 60px;
+  background-color: #fffcf0;
+  height: 50vh;
+  width: 60vw;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.game-header {
+  font-size: 1.5rem;
+  padding-bottom: 60px;
+  font-family: "MedievalSharp", cursive;
+}
+
+.quizanswers {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+#messages {
+  font-style: italic;
+}
+
+.quizanswerlines {
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  background-color: #380000;
+  color: white;
+  align-items: center;
+  text-align: center;
+  height: 5vh;
+  margin: 0;
+}
+.footer-text {
+  margin: 0px;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
